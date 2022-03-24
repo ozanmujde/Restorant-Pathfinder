@@ -1,6 +1,7 @@
 # 441 Project
 
-An optimal restaurant searcher ai algorithm.
+An optimal restaurant searcher ai algorithm. 
+Install requirements with `pip install -r requirements.txt` command
 
 ## TO-DO  
 
