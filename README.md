@@ -12,7 +12,7 @@ Pre-commit automatically run itself but if you want to format changes run `pre-c
 - [X] Pre-Commit
 - [X] EDA
 - [X] Greedy Heuristic
-- [ ] Sub 2-3 Optimal Tree
+- [X] Sub 2-3 Optimal Tree
 - [X] Genetic Algorithm
 
 ### Resources

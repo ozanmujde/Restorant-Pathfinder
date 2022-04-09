@@ -83,9 +83,10 @@ class restaurantFinder:
         if self.method == "greedy":
             for restaurant in restaurants:
                 totalScore += restaurant[SCORE]
-        else:
+        elif self.method == "genetic":
             for restaurant in restaurants[0]:
                 totalScore += self.restaurants[restaurant][SCORE]
+            print(restaurants)
         return totalScore
 
     def getRestaurantsInRadius(self, xcor, ycor, radius):
@@ -258,12 +259,17 @@ class restaurantFinder:
         prevRestaurant = None
         for restaurant in x:
             totalScore += self.restaurants[restaurant][SCORE]
-            # if prevRestaurant is not None:
-            #     totalScore -= self.getDistance(
-            #         self.restaurants[prevRestaurant], self.restaurants[restaurant]) / 5
-            # else:
-            #     totalScore -= self.getDistance(None,
-            #                                    self.restaurants[restaurant]) / 5
+            # values determined by their mean values + my own ideas
+            if prevRestaurant is not None:
+                totalScore -= (
+                    self.getDistance(
+                        self.restaurants[prevRestaurant], self.restaurants[restaurant]
+                    )
+                    / 50
+                )
+            else:
+                totalScore -= self.getDistance(None, self.restaurants[restaurant]) / 50
+            totalScore -= self.restaurants[restaurant][FOODPRICE] / 25
             prevRestaurant = restaurant
         return -totalScore
 
