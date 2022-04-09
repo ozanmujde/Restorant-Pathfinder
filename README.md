@@ -1,7 +1,10 @@
 # 441 Project
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 An optimal restaurant searcher ai algorithm.
 Install requirements with `pip install -r requirements.txt` command
+
+Pre-commit automatically run itself but if you want to format changes run `pre-commit run --all-files`
 
 ## TO-DO
 
@@ -10,7 +13,7 @@ Install requirements with `pip install -r requirements.txt` command
 - [X] EDA
 - [X] Greedy Heuristic
 - [ ] Sub 2-3 Optimal Tree
-- [ ] Genetic Algorithm
+- [X] Genetic Algorithm
 
 ### Resources
 
