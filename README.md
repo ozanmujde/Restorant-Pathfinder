@@ -1,15 +1,16 @@
 # 441 Project
 
-An optimal restaurant searcher ai algorithm.  
+An optimal restaurant searcher ai algorithm.
 Install requirements with `pip install -r requirements.txt` command
 
-## TO-DO  
+## TO-DO
 
 - [X] Data Creation
+- [X] Pre-Commit
 - [X] EDA
-- [ ] Basic Tree Implementation
-- [ ] Greedy Heuristic
-- [ ] More Algorithm
+- [X] Greedy Heuristic
+- [ ] Sub 2-3 Optimal Tree
+- [ ] Genetic Algorithm
 
 ### Resources
 
