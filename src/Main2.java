@@ -77,7 +77,7 @@ public class Main2{
     
     public static void readFile(){
         try {
-            File myObj = new File("/home/sevvalizmirli/Desktop/Bil441_Proje/Ozan/Restorant-Pathfinder/data/restaurants.csv");
+            File myObj = new File("Ozan/Restorant-Pathfinder/data/restaurants.csv");
             Scanner myReader = new Scanner(myObj);
             int sayac=0;
             while (myReader.hasNextLine()) {
