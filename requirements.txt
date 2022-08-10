@@ -7,7 +7,7 @@ matplotlib == 3.5.1
 # 441proje/data/datacreate.ipynb: 2
 # 441proje/src/restaurantsFinder.ipynb: 4
 # 441proje/src/restaurantsFinder.py: 1,5,6
-numpy == 1.21.4
+numpy == 1.22.0
 
 # 441proje/data/datacreate.ipynb: 1
 # 441proje/src/restaurantsFinder.ipynb: 1
